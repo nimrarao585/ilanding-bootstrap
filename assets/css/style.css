@@ -1,0 +1,155 @@
+.left-pic img{
+    height: 400px;
+}
+.heading-1{
+    color: #2d465e;
+}
+.heading-2{
+    color: #0d83fd;
+}
+header{
+    background-color: #eef6fe;
+}
+.navbar-nav a:hover{
+    color: var(--heading-2-color);
+}
+:root{
+    --heading-1-color:#2d465e;
+    --heading-2-color:#0d83fd;
+}
+ul{
+    list-style: none;
+}
+.right-content h2{
+    font-size: 2.5rem;
+      font-weight: 700;
+}
+.stat-icon:hover{
+    background-color: var(--heading-2-color) !important;
+    color:white !important;
+    
+}
+.stat-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+     background-color: #eaf3ff;
+}
+.about-item i{
+  color: var(--heading-2-color);
+}
+.about-right {
+    width: 100%;
+}
+.profile img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.mob-info h4{
+    font-size: 15px;
+}
+.second-pic{
+    width: 200px;
+    border: 6px solid white;
+}
+.Features-btn:hover{
+   background-color: var(--heading-2-color)!important;
+   color: white!important;
+}
+.aboutimage img{
+    width: 100%;
+}
+.aboutcontent ul li i{
+    color: var(--heading-2-color);
+}
+.phone-app img{
+    width: 300px;
+}
+.calltoaction{
+    color: white;
+}
+.call-btn{
+    color: white;
+    
+}
+.logo img{
+    width: 90px;
+    opacity:0.1;
+    
+}
+.testimonials-image img{
+    width: 90px;
+    border-radius: 100%;
+}
+.right-part i{
+   color: gold;
+}
+.Services{
+    width: 540px;
+}
+.test{
+     width: 540px;
+}
+.card{
+    width: 380px;
+    height: 600px;
+}
+.logo img:hover{
+    opacity: 1;
+    filter: grayscale(none);
+}
+.accordion-button {
+    font-weight: bold;
+    color: #124265;
+}
+.first-btn{
+        margin-left: 85px;
+}
+.accordion-button:not(.collapsed) {
+    background-color: var(--btncolor);
+    color: #fff;
+}
+
+.accordion-body {
+    color: #444;
+    
+}
+
+.accordion-item {
+    border-radius: 6px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.card{
+    width: 380px;
+    height: 600px;
+}
+.contact{
+    background-color: #0d83fd;
+}
+.contact-content{
+    width: 450px;
+    height: 600px;
+}
+.contact-content-1{
+     width: 620px;
+    height: 600px;
+}
+.features-icon i{
+   background-color: var(--heading-2-color);
+}
+.form input{
+    width: 100%;
+
+}
+.footer-last a{
+    text-decoration: none;
+}
+.contact-para{
+    opacity: 0.8;
+}
+textarea{
+    height: 200px;
+}
