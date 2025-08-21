@@ -153,3 +153,14 @@ ul{
 textarea{
     height: 200px;
 }
+
+.navbar  {
+    width: 90%;
+    
+}
+.right-content{
+    padding-top: 110px;
+}
+.top-navbar{
+    background-color: #eef6fe;
+}

@@ -6,15 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
-<body class="bg-white">
-  <header>
-    <nav class="navbar navbar-expand-lg bg-white mt-4 rounded-pill shadow-sm ">
+<body class="">
+  <div class="top-navbar fixed-top d-flex justify-content-center ">
+        <nav class="navbar navbar-expand-lg bg-white mt-4 rounded-pill shadow-sm px-3">
       <div class="container py-1">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">iLanding</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -51,10 +52,10 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item first-btn">
-              <a class="btn btn-primary" href="#">Get Started</a>
+              <a class="btn btn-primary rounded-pill" href="#">Get Started</a>
             </li>
 
           </ul>
@@ -62,7 +63,9 @@
         </div>
       </div>
     </nav>
-    <div class="container mt-5 text-start gy-4 ">
+  </div>
+  <header>
+    <div class="container mt-5 text-start gy-4 " data-aos="fade-up" data-aos-delay="100">
       <div class="row  ">
         <div class="col">
           <div class="right-content">
@@ -82,7 +85,7 @@
         <div class="col">
           <div class="left-pic"><img src="assets/images/illustration-1.webp"></div>
         </div>
-        <div class="container text-center mb-5 rounded-4 shadow-sm py-5 bg-white mt-5">
+        <div class="container text-center mb-5 rounded-4 shadow-sm py-5 bg-white mt-5"  data-aos="fade-up" data-aos-delay="500">
           <div class="row">
             <div class="col">
               <div class="stat-item d-flex justify-content-center align-content-center gap-3">
@@ -139,7 +142,7 @@
     </div>
 
   </header>
-  <div class="container text-center ">
+  <div class="container text-center " data-aos="fade-up" data-aos-delay="100">
     <h4 class="heading-2 text-start ms-3 mb-2 fs-6 fw-bold mt-5">More About Us</h4>
     <div class="row">
       <div class="col">
@@ -222,7 +225,7 @@
 
   </div>
   <section id="Features">
-    <div class="container text-center">
+    <div class="container text-center" data-aos="fade-up">
       <h2 class="heading-1">Features</h2>
       <p class="mb-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       <div class=" bg-light  d-inline-flex px-4 gap-3 py-2 rounded-pill mb-5">
@@ -274,10 +277,10 @@
     </div>
     </div>
   </section>
-  <section id="Features-2" >
+  <section id="Features-2" class="bg-white" >
     <div class="container">
-      <div class="row gap-1 text-start shadow-sm rounded mt-5">
-        <div class="col ">
+      <div class="row gap-1 text-start rounded mt-5">
+        <div class="col " data-aos="zoom-in">
           <div class="icon-box  bg-warning-subtle rounded-4 py-5 px-3">
             <i class=" icon ri-tv-line fs-1"></i>
             <h2 class="heading-1 fs-4">Lorem Ipsum</h2>
@@ -287,7 +290,7 @@
             </p>
           </div>
         </div>
-        <div class="col ">
+        <div class="col " data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box bg-info-subtle rounded-4 py-5 px-3">
             <i class="ri-government-fill fs-1"></i>
             <h2 class="heading-1 fs-4">Lorem Ipsum</h2>
@@ -297,7 +300,7 @@
             </p>
           </div>
         </div>
-        <div class="col ">
+        <div class="col " data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box bg-success-subtle rounded-4 py-5 px-3">
             <i class="ri-home-smile-fill fs-1"></i>
             <h2 class="heading-1 fs-4">Lorem Ipsum</h2>
@@ -307,7 +310,7 @@
             </p>
           </div>
         </div>
-        <div class="col ">
+        <div class="col " data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box bg-danger-subtle rounded-4 py-5 px-3">
             <i class="ri-headphone-fill fs-1"></i>
             <h2 class="heading-1 fs-4">Lorem Ipsum</h2>
@@ -322,7 +325,7 @@
 
   </section>
   <section id="Features-3" class="py-5">
-    <div class="container text-center">
+    <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
       <div class="row">
         <div class="col">
           <div class="device-features d-flex text-end gap-4 mb-4 mt-5">
@@ -410,7 +413,7 @@
   </section>
 
   <section id="call-to-action" class="bg-white py-4">
-    <div class="calltoaction container bg-primary text-center rounded-4 mt-5 mb-5 py-5">
+    <div class="calltoaction container bg-primary text-center rounded-4 mt-5 mb-5 py-5" data-aos="fade-up" data-aos-delay="100">
       <h2 class="fw-semibold fs-1">Maecenas tempus tellus<br> eget condimentum</h2>
       <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit<br> neque,
         auctor sit amet aliquam vel
@@ -419,7 +422,7 @@
     </div>
   </section>
   <section id="images" class="bg-white py-4">
-    <div class="container mt-5 mb-5 text-center">
+    <div class="container mt-5 mb-5 text-center" data-aos="fade-up" data-aos-delay="100">
       <div class="row">
         <div class="col">
           <div class="logo">
@@ -455,10 +458,10 @@
     </div>
   </section>
   <section id="testimonials" class="bg-light py-4">
-    <div class="container   text-center ">
+    <div class="container   text-center " data-aos="fade-up">
       <h2 class="heading-1">Testimonials</h2>
       <p class="mb-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      <div class=" row  g-4">
+      <div class=" row  g-4"  data-aos="fade-up" data-aos-delay="100">
         <div class="col-lg-6 ">
           <div class=" test bg-white py-4 gap-4 ">
 <div class=" right-part d-flex py-4 gap-4 ">
@@ -585,13 +588,13 @@
         </div>
         <div class="col">
           <div class="numbers">
-            <span class="fs-1 heading-1 fw-bold">223</span>
+            <span class="fs-1 heading-1 fw-bold">545</span>
             <p class="text-muted mt-4">Projects</p>
           </div>
         </div>
         <div class="col">
           <div class="numbers">
-            <span class="fs-1 heading-1 fw-bold">223</span>
+            <span class="fs-1 heading-1 fw-bold">1243</span>
             <p class="text-muted mt-4">Hours of support</p>
           </div>
         </div>
@@ -607,10 +610,10 @@
 
   </section>
   <section id="Services" class="bg-light py-4">
-    <div class="container text-center  ">
+    <div class="container text-center  " data-aos="fade-up">
       <h2 class="heading-1">Services</h2>
       <p class="text-muted mb-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      <div class="row g-4 ">
+      <div class="row g-4 " data-aos="fade-up" data-aos-delay="100" >
         <div class="col">
           <div class="Services d-flex gap-4 bg-white py-4 px-4">
             <div><i class="fs-1 ri-pulse-line heading-2  stat-icon px-2 py-2"></i></div>
@@ -663,10 +666,10 @@
     </div>
   </section>
   <section id="Pricing" class="bg-light py-4">
-    <div class="container text-center">
+    <div class="container text-center" data-aos="fade-up">
       <h2 class="heading-1">Pricing</h2>
       <p class="text-muted">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col-lg-4 mb-4 ">
           <div class="card  shadow-sm border-0  rounded-4 py-4 d-grid gap-0  ">
             <div class="card-body">
@@ -735,7 +738,7 @@
   <section id="Faq"  class="bg-light py-4">
     <div class="container text-center">
       <div class="row">
-        <div class="col">
+        <div class="col" data-aos="fade-up">
           <div  class="text-start">
             <h2 class="heading-1 fs-1">Have a question?Check out the FAQ</h2>
             <p class="text-muted">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet
@@ -744,7 +747,7 @@
             </p>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="fade-up" data-aos-delay="300">
           <div class=" bg-white shadow-sm accordion-item py-4 rounded-4 mb-4">
             <h2 class="accordion-header heading-1 " >
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -842,26 +845,26 @@
     </div>
   </section>
   <section id="call" class="text-center bg-primary py-4 call">
-    <h2 class="text-white fs-3 mt-4">Call to Action</h2>
-    <p class="text-white">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    <h2 class="text-white fs-3 mt-4" data-aos="zoom-in" data-aos-delay="100">Call to Action</h2>
+    <p class="text-white" data-aos="zoom-in" data-aos-delay="100">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
       pariatur. Excepteur
       sint occaecat cupidatat<br> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <a class="btn btn-primary border-light rounded-pill px-4 py-2 mb-4" href="#">Get Started</a>
   </section>
   <section id="contact" class="mt-4">
-    <div class="container text-center">
+    <div class="container text-center" data-aos="fade-up">
       <h2 class="heading-1">Contact</h2>
       <p class="mb-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       <div class="row">
         <div class="col">
           <div class="contact-content bg-primary py-4 rounded-4">
-            <div claas="contact text-start   ">
+            <div claas="contact text-start   " data-aos="fade-up" data-aos-delay="200">
               <h4 class="ms-3 mt-4   text-start text-white mb-4">Contact Info</h4>
               <p class="ms-3 text-start text-white contact-para">Praesent sapien massa, convallis a<br> pellentesque nec, egestas non
                 nisi. Vestibulum
                 ante
                 ipsum primis.</p>
-              <div class="contact-info d-flex mb-4 text-start">
+              <div class="contact-info d-flex mb-4 text-start" data-aos="fade-up" data-aos-delay="300">
                 <div class="features-icon mt-4 px-2  ">
                   <i class="ri-map-pin-line fs-3 heading-2 text-white  rounded-circle py-3 px-3"></i>
                 </div>
@@ -874,7 +877,7 @@
             </div>
             <div claas="contact text-start   ">
 
-              <div class="contact-info d-flex mb-4">
+              <div class="contact-info d-flex mb-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="features-icon mt-4 px-2  ">
                   <i class="ri-phone-line fs-3  heading-2 text-white  rounded-circle py-3 px-3"></i>
                 </div>
@@ -887,7 +890,7 @@
             </div>
             <div claas="contact text-start  ">
 
-              <div class="contact-info d-flex  mb-4 text-start">
+              <div class="contact-info d-flex  mb-4 text-start" data-aos="fade-up" data-aos-delay="500">
                 <div class="features-icon mt-4 px-2  ">
                   <i class="ri-mail-line fs-3  heading-2 text-white  rounded-circle py-3 px-3"></i>
                 </div>
@@ -902,7 +905,7 @@
 
         </div>
         <div class="col">
-          <form class="contact-content-1 shadow px-4 py-4 rounded-4">
+          <form class="contact-content-1 shadow px-4 py-4 rounded-4" data-aos="fade-up" data-aos-delay="300">
             <h4 class=" mb-3 heading-1 text-start">Get in Touch</h4>
             <p class=" mb-3 text-muted text-start">Praesent sapien massa, convallis a pellentesque nec, egestas non
               nisi. Vestibulum ante ipsum primis.</p>
@@ -997,6 +1000,10 @@
 
   </section>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
